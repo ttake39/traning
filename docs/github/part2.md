@@ -21,4 +21,6 @@ __[基本方針]__
 
     releases/yyyy-mm-dd = リリース
 ```
+
+## masterについて
     
