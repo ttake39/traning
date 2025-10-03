@@ -27,4 +27,6 @@ __[基本方針]__
 ## stagingについて
 
 ## featureについて
+
+## hotfixについて
     
