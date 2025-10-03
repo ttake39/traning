@@ -179,6 +179,17 @@ GitHubを使用する上で知っておきたい用語
     ```
     git reset --hard HEAD~1        # 1つ前のコミットへ戻す
     ```
+
+- __リバート（revert）__
+
+    __[概要]__
+
+    `revert` は、指定したコミットの変更を“打ち消す新しいコミット”を作成して取り消す操作<br>
+    用途としては、StagingやMasterなどへ`Merge`した際に、Bugが混入して戻したい場合などに使われることが多い
+    ```
+    git revert -m 1 <merge-commit-hash>
+    ```
+
 - __.gitignore（Gitで無視するファイルを定義）__
 
     __[概要]__
